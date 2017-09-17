@@ -12,12 +12,17 @@
   </view>
 
     <!-- 分类导航 -->
-  <view class="nav-block wrap">
+  <!-- <view class="nav-block wrap">
     <block wx:for="{{navItems}}"> 
       <view class="wrap-item {{item.isSplot ? 'exp' : ''}}">  
         <navigator url="../components/{{item.url}}/{{item.url}}" hover-class="navigator-hover">{{item.name}}</navigator>
       </view>
     </block>
+  </view> -->
+  <view class="wrap">
+    <view>{{title}}</view>
+    <view class="all-pro" wx:for="{{proUrls}}">
+      <image src="{{item}}" height='100' width='100'></image>
+    </view>
   </view>
-
 </view>
