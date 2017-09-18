@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/components/contact/contact",
-    "pages/components/about/about"
+    "pages/components/about/about",
+    "pages/shop/shop"
   ],
   "window":{
     "backgroundColor":"#f4f4f4",

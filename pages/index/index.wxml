@@ -21,8 +21,10 @@
   </view> -->
   <view class="wrap">
     <view>{{title}}</view>
-    <view class="all-pro" wx:for="{{proUrls}}">
-      <image src="{{item}}" height='100' width='100'></image>
-    </view>
+    <view class="shop" wx:for="{{shops}}" wx:key="id">
+      <navigator url="/pages/shop/shop?id={{item.id}}">
+        <image src="{{item.img}}"/>
+      </navigator>
+		</view>
   </view>
 </view>

@@ -13,38 +13,12 @@ Page({
       'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3572232574,1664278525&fm=27&gp=0.jpg'
     ],
     title : '所有产品',
+    shops:app.globalData.shops,
     indicatorDots: true,
     autoplay: true,
     interval: 3000,
-    duration: 1000,
-    navItems:[
-      {
-        name:'开关',
-        url:'dishes'
-      },
-      {
-        name:'灯具',
-        url:'take',
-        isSplot:true
-      },
-      {
-        name:'其他1',
-        url:'out'
-      },
-      {
-        name:'其他2',
-        url:'bill'
-      },
-      {
-        name:'其他3',
-        url:'bill',
-        isSplot:true
-      },
-      {
-        name:'其他4',
-        url:'bill'
-      }
-    ]
+    duration: 1000
+    
   },
   onLoad: function () {
     console.log('onLoad')

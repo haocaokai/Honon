@@ -1,0 +1,7 @@
+<view class="container">
+  <view class="shopName">{{shop.name}}</view>
+  <view class="shopImg">
+    <image src='{{shop.img}}'></image>
+  </view>
+  <view class="shopDes">{{shop.des}}</view>
+</view>

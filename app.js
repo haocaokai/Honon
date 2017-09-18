@@ -29,5 +29,21 @@ App({
         }
       });
     }
+  },
+  globalData : {
+    shops : [
+      {
+        id:1,
+        img: 'http://wxapp.im20.com.cn/impublic/waimai/imgs/shops/shop_1.jpg',
+        name:'第一个产品',
+        des:'111111'
+      },
+      {
+        id:2,
+        img: 'http://wxapp.im20.com.cn/impublic/waimai/imgs/shops/shop_1.jpg',
+        name: '第2个产品',
+        des: '222222'
+      }
+    ]
   }
 })
