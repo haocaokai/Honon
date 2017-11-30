@@ -1,2 +1,6 @@
-<!--pages/components/about/about.wxml-->
-<text>pages/components/about/about.wxml</text>
+
+
+<view class="container">
+  <view>销售品牌：</view>
+  
+</view>

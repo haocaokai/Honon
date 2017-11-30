@@ -1,1 +1,4 @@
-/* pages/components/about/about.wxss */
+page{ background:#f4f4f4; }
+.btn{ width:92%; margin-bottom:10px; text-align: center;}
+.container{ padding:20px; }
+.container view{ padding:8px 0; font-size:18px; }

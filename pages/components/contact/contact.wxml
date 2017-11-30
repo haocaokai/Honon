@@ -1,11 +1,11 @@
 
 
 <view class="container">
-  <view>联系人：孙忠</view>
+  <view>销售品牌：孙忠</view>
   <view>联系电话：13901203458 / 13522080638</view>
   <view bindtap="openMap">店铺地址：北京市朝阳区北五环建材灯饰城</view>
 </view>
 
 
 <button type="primary" bindtap="call" class="btn call">电话联系</button>  
-<button type="primary" bindtap="openMap" class="btn openMap">打开地图</button>
+<button type="primary" bindtap="openMap" class="btn openMap">导航到店</button>

@@ -21,3 +21,10 @@
 	border: 1px solid #ddd;
 	border-top: 0;
 }
+
+page{ background:#f4f4f4; }
+.btn{ width:92%; margin-bottom:10px; text-align: center;}
+.contact-wrapper{ padding:0 20px 20px 20px; } 
+.contact-wrapper view{ padding:8px 0; font-size:18px; } 
+.openMap{ margin-top: 15px; }
+

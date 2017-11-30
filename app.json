@@ -1,7 +1,6 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/components/contact/contact",
     "pages/components/about/about",
     "pages/shop/shop"
   ],
@@ -15,20 +14,15 @@
   "tabBar" : {
     "list" : [{
       "pagePath" : "pages/index/index",
-      "text" : "产品",
+      "text" : "首页",
       "iconPath" : "images/product.png",
       "selectedIconPath" : "images/product2.png"
-    },{
+    },
+    {
       "pagePath": "pages/components/about/about",
       "text": "简介",
       "iconPath": "images/about.png",
       "selectedIconPath": "images/about2.png"
-    },
-    {
-      "pagePath": "pages/components/contact/contact",
-      "text": "联系",
-      "iconPath": "images/contact.png",
-      "selectedIconPath": "images/contact2.png"
     }]
   }
 }
