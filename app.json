@@ -1,7 +1,7 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/components/about/about",
+    "pages/components/contact/contact",
     "pages/shop/shop"
   ],
   "window":{
@@ -19,7 +19,7 @@
       "selectedIconPath" : "images/product2.png"
     },
     {
-      "pagePath": "pages/components/about/about",
+      "pagePath": "pages/components/contact/contact",
       "text": "简介",
       "iconPath": "images/about.png",
       "selectedIconPath": "images/about2.png"

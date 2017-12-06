@@ -2,7 +2,9 @@
 .my-swiper image{
   width: 100%;
 }
-
+swiper{
+  height: 200px;
+}
 .wrap{
 	display: inline-block;
 	margin-top: .8rem;
