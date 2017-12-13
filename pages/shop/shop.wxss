@@ -1,0 +1,9 @@
+page{ height: 100%; }
+
+
+.shopImg image{ width: 100%; }
+
+
+.shopBox{ margin-top: 10px;  }
+.shopBox view { margin-top: 10px; padding-left: 20px;}
+.shopName{ color:#48776f; font-size: 30px; border-bottom: 2px solid #ccc; padding-bottom: 10px;}

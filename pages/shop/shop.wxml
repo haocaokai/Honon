@@ -1,7 +1,13 @@
 <view class="container">
-  <view class="shopName">{{shop.name}}</view>
   <view class="shopImg">
     <image src='{{shop.img}}'></image>
   </view>
-  <view class="shopDes">{{shop.des}}</view>
+  <view class="shopBox">
+    <view class="shopName">{{shop.name}}</view>
+    <view>产品特点： {{shop.trait}}</view>
+    <view>适用区域： {{shop.area}}</view>
+    <view>灯具材质： {{shop.material}}</view>
+    <view>适用面积： {{shop.area2}}</view>
+    <view>可选功率： {{shop.power}}</view>
+  </view>
 </view>

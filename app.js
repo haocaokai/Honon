@@ -34,16 +34,24 @@ App({
     shops : [
       {
         id:1,
-        img: 'http://wxapp.im20.com.cn/impublic/waimai/imgs/shops/shop_1.jpg',
-        name:'第一个产品',
-        des:'111111'
+        img: '../../images/1.jpg',
+        name:'流光溢彩（方）',
+        trait: '简约唯美，经典品质',
+        area: '客厅，卧室，书房',
+        material: '五金 + 进口亚克力',
+        area2: '8 ~ 30平方米',
+        power: '90W/81W/32W/30W'
       },
       {
-        id:2,
-        img: 'http://wxapp.im20.com.cn/impublic/waimai/imgs/shops/shop_1.jpg',
-        name: '第2个产品',
-        des: '222222'
-      }
+        id: 2,
+        img: '../../images/2.jpg',
+        name: '流光溢彩（圆）',
+        trait: '简约唯美，经典品质',
+        area: '客厅，卧室，书房',
+        material: '五金 + 进口亚克力',
+        area2: '8 ~ 30平方米',
+        power: '90W/81W/32W/30W'
+      },
     ]
   }
 })

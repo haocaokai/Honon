@@ -30,3 +30,8 @@ page{ background:#f4f4f4; }
 .contact-wrapper view{ padding:8px 0; font-size:18px; } 
 .openMap{ margin-top: 15px; }
 
+
+.shop image{ width: 100%; }
+
+
+.title{ text-align: center; font-size: 30px; }
