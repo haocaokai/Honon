@@ -6,6 +6,7 @@ Page({
     imgUrls: [
       '../../images/img1.jpg',
       '../../images/img2.jpg',
+      '../../images/img3.jpg',
     ],
     proUrls:[
       // 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3188493008,3316920831&fm=27&gp=0.jpg',
